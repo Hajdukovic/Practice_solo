@@ -10,7 +10,7 @@ namespace TestApp
     {
         public override void GetPaycheck()
         {
-            this.Balance = (double)this.WorkingHours * 59.30;
+            this.Balance = (double)this.WorkingHours * 69.30;
             Console.WriteLine($"{this.Name} {this.Surname} just got paid!");
         }
 
