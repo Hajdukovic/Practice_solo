@@ -17,13 +17,13 @@ namespace TestApp
         {
             Builder worker1 = new Builder();
             worker1.Name = "Pero";
-            worker1.Surname = "Perić";
+            worker1.Surname = "Peric";
             Builder worker2 = new Builder();
             worker2.Name = "Duro";
             worker2.Surname = "Mirkec";
             Manager boss1 = new Manager();
             boss1.Name = "Hrvoje";
-            boss1.Surname = "Hajduković";
+            boss1.Surname = "Hajdukovic";
 
             List<Employee> employees = new List<Employee>();
             employees.Add(worker1);
@@ -42,7 +42,7 @@ namespace TestApp
             }
 
             // Generic test example
-            string testNumberString = "0123";
+            string testNumberString = "2345";
             Print(ref testNumberString);
             int testNumberInt = 0123;
             Print(ref testNumberInt);
